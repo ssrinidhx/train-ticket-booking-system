@@ -79,7 +79,7 @@ TrainTicketBookingSystem/
 │	  └── list-trains-user.jsp
 │	  └── user-dashboard.jsp
 │	  └── user-details.jsp
-└── └── user-login.jsp
+└──   └── user-login.jsp
 ```
 
 # Database Tables(MySQL):
