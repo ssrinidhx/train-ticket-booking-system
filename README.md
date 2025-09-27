@@ -79,24 +79,24 @@ TrainTicketBookingSystem/
 │	  └── list-trains-user.jsp
 │	  └── user-dashboard.jsp
 │	  └── user-details.jsp
-└──       └── user-login.jsp
+└── └── user-login.jsp
 ```
 
 # Database Tables(MySQL):
 
 ### Database Name: `train_booking_db`
 
-### 1. `admin` : Stores admin login credentials.
+1. `admin` : Stores admin login credentials.
 
-### 2. `users` : Stores user registration details.
+2. `users` : Stores user registration details.
 
-### 3. `user_login` : Stores login credentials for users.
+3. `user_login` : Stores login credentials for users.
 
-### 4. `trains` : Stores train details.
+4. `trains` : Stores train details.
 
-### 5. `available_seats` : Tracks the remaining seats for each train.
+5. `available_seats` : Tracks the remaining seats for each train.
 
-### 6. `bookings` : Stores all user ticket bookings.
+6. `bookings` : Stores all user ticket bookings.
 
 ## Relationships:
 - `train_number` is the linking key across trains, available_seats, and bookings.
